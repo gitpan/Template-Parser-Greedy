@@ -1,0 +1,30 @@
+Template-Parser-Greedy version 1.00
+===================================
+
+This module allows templates to be optimized for readability, while at the same time enhancing control
+over the spacing of the generated output. It does this by providing two new options, CHOMP_GREEDY and
+CHOMP_COALESCE, and their corresponding directive modifiers, ~ and ^.
+
+In addition, a new modifier, =, for the old CHOMP_COLLAPSE option has been added.
+
+INSTALLATION
+
+To install this module type the following:
+
+   perl Makefile.PL
+   make
+   make test
+   make install
+
+DEPENDENCIES
+
+This module requires these other modules and libraries:
+
+    Template::Parser
+
+COPYRIGHT AND LICENCE
+
+Copyright (C) 2006 by chocolateboy <chocolate.boy@email.com>
+
+This library is free software; you can redistribute it and/or modify
+it under the same terms as Perl itself.

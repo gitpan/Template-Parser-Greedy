@@ -1,0 +1,25 @@
+Revision history for Perl extension Template::Parser::Greedy.
+
+1.00  Fri Feb 10 20:17:34 2006
+    - renamed Template::Parser::Greedy
+    - allow PRE_CHOMP and POST_CHOMP values to be specified by modifer tokens (e.g. PRE_CHOMP => '+')
+    - added support for the CHOMP_COLLAPSE modifier "="
+    - added a greedy version of CHOMP_COLLAPSE: CHOMP_COALESCE
+    - added support for a CHOMP_COALESCE directive modifier, '^'
+    - export CHOMP_GREEDY and CHOMP_COALESCE constants
+    - many more tests
+    - expanded documentation
+    - code cleanup
+
+0.90  Thu Feb  9 23:57:55 2006
+    - API change - now fully backwards compatible with Template::Parser
+    - added a new PRE/POST_CHOMP setting, 3, to enable greedy chomping (on by default)
+    - added an option, '~', to enable greedy chomping on a per-directive basis
+    - added comprehensive tests for constructor args and directive modifiers
+    - more documentation + POD fixlets
+
+0.02  Thu Feb  9 22:58:20 2006
+    - POD fixlet
+
+0.01  Thu Feb  9 04:41:28 2006
+    - original version; created by h2xs 1.23 with options -A -X --skip-exporter -n Template::Parser::Pretty

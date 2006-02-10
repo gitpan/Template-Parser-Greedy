@@ -1,0 +1,14 @@
+Changes
+lib/Template/Parser/Greedy.pm
+Makefile.PL
+MANIFEST			This list of files
+META.yml
+README
+t/01.t
+t/options.t
+t/pod.t
+t/postline.t
+t/preline.t
+t/t2_line_count_bug.t
+t/table.t
+t/xml.t
